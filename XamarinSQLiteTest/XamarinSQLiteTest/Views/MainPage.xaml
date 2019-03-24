@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinSQLiteTest.Views.MainPage"
+             Title="{Binding Title}">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Button Text="取得" Command="{Binding SelectSQL}" />
+        <Button Text="挿入" Command="{Binding InsertSQL}" />
+        <Button Text="作成" Command="{Binding CreateTable}" />
+    </StackLayout>
+
+</ContentPage>
